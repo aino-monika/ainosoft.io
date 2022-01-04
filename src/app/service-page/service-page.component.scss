@@ -4,8 +4,14 @@ h3{
 }
 
 .card-deck{
+    position:relative;
+    z-index:-1;
     margin-right: 10%;
     margin-left: 10%;
+}
+.container{
+    position:relative;
+    z-index:-1;
 }
 
 .card{

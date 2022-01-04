@@ -1,6 +1,8 @@
 .container-fluid{
     width: 100vw;
     padding-left: 1px;
+    position:relative;
+    z-index:-1;
 
     .img-fluid{
         width: 100vw;
@@ -8,7 +10,7 @@
     }
 }
 .top-right {
-    position: relative;
+    position:relative;
     font-size: xx-large;
     top: -450px;
     right: -1000px;
@@ -26,6 +28,7 @@
     width: 1vw;
     height: 1vh;
 }
+
 
 
 .btn{
