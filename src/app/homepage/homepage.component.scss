@@ -9,18 +9,30 @@
         height: 85vh;  
     }
 }
-.top-right {
-    position:relative;
-    font-size: xx-large;
-    top: -450px;
-    right: -1000px;
-    color: aliceblue;
+.text-content{
+   
+    bottom: 70vh;
+    left: 15vw;
+    color:white;
+    overflow: hidden;
+    white-space: nowrap;
     font-family: 'Courier New', Courier, monospace;
+    animation: animtext 4s steps(80, end); 
+    transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+  }
+  @keyframes animtext { 
+    from {
+        width: 0;
+        transition: all s ease-in-out;
+    } 
   }
 
 .content{
-    margin-left: 2%;
+    margin-left: 1em;
     margin-top: -39px;
+    position: relative;
+    z-index: -1;
+    margin-right: 1em;
 }
 
 .caret {
@@ -28,8 +40,6 @@
     width: 1vw;
     height: 1vh;
 }
-
-
 
 .btn{
     margin-left:2%;    
@@ -39,45 +49,14 @@
     border: 0px solid transparent;
     margin-right: 3%;
 }
-input{
-    margin-left: 92%;
-}
-
 
 .about{
-    font-size: 20px;
-    margin-left:2%;
-    margin-right: 2%;
+    font-size:1.3em;
+    position: relative;
+    z-index: -1;
 }
 
-.logo{
-    width: 20px;
-    height:20px;
-}
 
-.company-logo{
-    border: 0;
-    width: 10vw;
-    height: auto;
-    margin-top: 10%;
-    margin-left: -30%;
-}
-
-.company-logo2{
-    border: 0;
-    width: 10vw;
-    height: auto;
-    margin-top: -4%;
-    margin-left:-100%;
-}
-
-.company-logo3{
-    border: 0;
-    width: 10vw;
-    height: auto;
-    margin-top: -41%;
-    margin-left:40%;
-}
 
 
 

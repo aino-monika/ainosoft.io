@@ -1,9 +1,15 @@
-
+.container-fluid{
+    position: relative;
+    z-index: -1;
+    text-align: center;
+}
 
 h3{
-    margin-top: 6%;
-    margin-left: 12%;;
+    margin-top: 15vh;
+    margin-left: 8vw;
+    position: relative;
+    z-index: -1;
 }
 
 
-.rejoyos img{width: 10vw;}
+.rejoyos img{width: 35%;}

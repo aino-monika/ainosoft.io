@@ -1,6 +1,12 @@
+h2{
+    margin-top: 14vh;
+    margin-left: 12vw;
+    position: relative;
+    z-index: -1;
+}
+
 h3{
-    margin-top: 6%;
-    margin-left: 12%;
+    margin-left: 5vw;
 }
 
 .card-deck{
@@ -12,6 +18,7 @@ h3{
 .container{
     position:relative;
     z-index:-1;
+    padding-right: 20px;
 }
 
 .card{
@@ -23,23 +30,19 @@ h3{
 }
 
 .card-title{
-    font-size: 20px;
+    font-size: 1.7em;
 }
 
-.card-text{
-    font-size: 17px;
+p{  
+    font-size: 1.3em;
 }
-.text{
-    margin-top: 15%;
-    font-size: 20px;
-    margin-left: 0%;
-}
+
 
 li{
-    font-size: 18px;
+    font-size: 1.3em;
     margin-left: 0%;
 }
 
-.middle{
-    margin-left: 14%;
+.niidle-center{
+    margin-left: 12vw;
 }

@@ -1,9 +1,7 @@
-.py-5 {
-    padding-bottom: 2rem!important;
-}
-.my-5{
-    margin-bottom: 0rem!important;
-}
+
+// @import "~bootstrap-4.0.0/scss/mixins/_breakpoints.scss";
+
+
 .navbar{
     border-radius: 4px;
     position: fixed;
@@ -30,72 +28,49 @@ ul{
     margin-right: 4%;
 }
 
-h5{
-    margin-top: -1em;
-    margin-right: -70em;
-}
-
-.company-logo1 img{
-    width: 8vw;
-    height: 4vh;
-    margin-left:-1200%;
-    margin-top: 10%;
-}
-
-.company-logo2 img{
-    width: 10vw;
-    height: 11vh;
-    margin-left: -950%;
-    margin-top: -10%;
-}
-
-.company-logo3 img{
-    width: 10vw;
-    height: 3vh;
-    margin-left: -950%;
-    margin-top: 10%;
-}
-
-.fab {
-    padding: 8px;
-    font-size: 18px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
+.row{
     background-color: #ffc107;
-  }
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.artikulate img{
+    left: 1em;
+    width:10em;
+    margin-top: 4em;
+}
+
+.appops img{
+    width:9em;
+    margin-top: 0.6em;
+}
+
+.xTractor img{
+    width:9em;
+    margin-top: 4em;
+}
+
+.btn-light{
+    border-color: black;
+    color:black;
+    background-color: #ffc107;
+}
+
+.btn {
+    border-radius: 50%;
+    padding: 6px 10px;
+    font-size: 1em;
+    line-height: 1.333333;
+}
 
   .fab:hover {
     opacity: 0.7;
 }
+.footer-icons{
+margin-left:2vw;
+}
 
-.fa-facebook-f {
-    color:black;
-    border: 1px solid;
-  }
-
-  .fa-linkedin-in{
-    border: 1px solid;
-    color:black;
-  }
-
-  .fa-twitter{
-    border: 1px solid;
-    color:black;
-  }
-  .fa-quora{
-      font-size: 38px;
-      margin-top: -6%;
-  }
-
-  h4{
-      margin-top: -34px;
-      margin-bottom: 10px;
-      margin-right: -68%;
-  }
-
-
-
-
+.social-media-icons{
+    position: relative;
+    // left: 40vw;
+}

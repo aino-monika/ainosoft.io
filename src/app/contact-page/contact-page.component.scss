@@ -1,25 +1,30 @@
 .formlayout{
     background-color:lightgrey;
+    
 }
 .container{
     position:relative;
     z-index:-1;
 }
 
+
+
 h3{
     margin-top: 25%;
     margin-left: 4%;
 }
 h5{
-    margin-left: 4%;
+    margin-left: 3vw;
+    margin-top: 5vh;
 }
 .col-4{
-    margin-left: 2%;
+    margin-left: 3vw;
+    margin-top: 10vh;
 }
 
 .form-control{
     margin-left: 4%;
-    width: 14vw;
+    width: 18vw;
 }
 
 .form-control1 {
@@ -30,16 +35,19 @@ h5{
 }
 
 .btn-light{
-    margin-left: 70%;
-    width: 8vw;   
+    margin-left: 7%;
+    width: 14vw;   
+
 }
 
+
+
 p{
-    font-size: 17px;
+    font-size: 1.3em;
 }
 
 .career{
-    margin-top: 25%;
+    margin-top: 26%;
     margin-left: 40%;
 
 }
