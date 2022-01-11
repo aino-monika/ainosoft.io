@@ -1,10 +1,8 @@
 
-// @import "~bootstrap-4.0.0/scss/mixins/_breakpoints.scss";
-
-
 .navbar{
     border-radius: 4px;
     position: fixed;
+    z-index: 10;
     width: 99vw;
     margin-bottom: 5%;
 }
@@ -28,27 +26,6 @@ ul{
     margin-right: 4%;
 }
 
-.row{
-    background-color: #ffc107;
-    margin-right: 0px;
-    margin-left: 0px;
-}
-
-.artikulate img{
-    left: 1em;
-    width:10em;
-    margin-top: 4em;
-}
-
-.appops img{
-    width:9em;
-    margin-top: 0.6em;
-}
-
-.xTractor img{
-    width:9em;
-    margin-top: 4em;
-}
 
 .btn-light{
     border-color: black;
@@ -67,10 +44,14 @@ ul{
     opacity: 0.7;
 }
 .footer-icons{
-margin-left:2vw;
+    margin-top: 1vh;
 }
+// span{
+//     margin-top: 4vh;
+// }
 
-.social-media-icons{
-    position: relative;
-    // left: 40vw;
-}
+// footer{
+//     position:fixed;
+//     width: 100vw;
+//     bottom: 0;
+// }

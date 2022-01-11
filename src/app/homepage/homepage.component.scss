@@ -1,37 +1,42 @@
+.home-page{
+    position: relative;
+    
+}
+
 .container-fluid{
     width: 100vw;
     padding-left: 1px;
-    position:relative;
-    z-index:-1;
+   
 
     .img-fluid{
         width: 100vw;
         height: 85vh;  
+        margin-top: 7vh;
     }
 }
+
 .text-content{
-   
-    bottom: 70vh;
-    left: 15vw;
+    bottom: 75vh;
+    text-align: center;
     color:white;
     overflow: hidden;
     white-space: nowrap;
     font-family: 'Courier New', Courier, monospace;
-    animation: animtext 4s steps(80, end); 
+    animation: animtext 4s; 
     transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+    opacity: .7;
+   
   }
   @keyframes animtext { 
     from {
         width: 0;
-        transition: all s ease-in-out;
+        transition: left 2s ease-in-out;
     } 
   }
 
 .content{
     margin-left: 1em;
-    margin-top: -39px;
-    position: relative;
-    z-index: -1;
+    margin-top: 0vh;
     margin-right: 1em;
 }
 
@@ -52,8 +57,6 @@
 
 .about{
     font-size:1.3em;
-    position: relative;
-    z-index: -1;
 }
 
 
