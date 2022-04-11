@@ -3,7 +3,7 @@
     border-radius: 4px;
     position: fixed;
     z-index: 10;
-    width: 99vw;
+    width: 99.75vw;
     margin-bottom: 5%;
 }
 .image-logo{
@@ -12,6 +12,7 @@
          
 nav .navbar-nav li a{
              color:darkblue !important;
+                
         }
     
 nav .navbar-nav li a:hover{
@@ -19,13 +20,15 @@ nav .navbar-nav li a:hover{
         }
 
 .navbar-nav li {
-        margin-right: 4%;    
-}      
-     
-ul{
-    margin-right: 4%;
+        margin-right: 10%; 
+
 }
 
+// .navbar-toggler-icon{
+
+   
+// } 
+    
 
 .btn-light{
     border-color: black;

@@ -128,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "Ainosoft1p"
+  "defaultProject": "Ainosoft1p",
+  "cli": {
+    "analytics": "1ffaa8b4-699a-48fe-9a50-0b6a681d21ea"
+  }
 }
